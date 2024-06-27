@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2851f716e275bdd478a2bea4843db238, type: 3}
+  m_Name: Storages
+  m_EditorClassIdentifier: 
+  _streetInfoStorage: {fileID: 11400000, guid: e8bc427068ed9f34187baefe737c2bd6, type: 2}
+  _questionStorage: {fileID: 11400000, guid: 75901d4fb5be450468a6c5b83c215cb1, type: 2}

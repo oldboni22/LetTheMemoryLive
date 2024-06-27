@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad8d2973551ca645b0f371beee6733f, type: 3}
+  m_Name: 1
+  m_EditorClassIdentifier: 
+  _questionText: "\u041A\u0442\u043E \u0437\u0430 \u0432\u0440\u0435\u043C\u044F
+    \u0432\u043E\u0439\u043D\u044B \u0441\u043E\u0432\u0435\u0440\u0448\u0438\u043B
+    240 \u0431\u043E\u0435\u0432\u044B\u0445 \u0432\u044B\u043B\u0435\u0442\u043E\u0432"
+  _answerSprites:
+  - {fileID: 21300000, guid: bbd2fe41c3da7b94db1bb73878935663, type: 3}
+  - {fileID: 21300000, guid: ba75d6d309382504c8fa422308993d00, type: 3}
+  - {fileID: 21300000, guid: 8190f2cb33e8d2749a3e6f4f7a6ae328, type: 3}
+  - {fileID: 21300000, guid: 4dad19100661efc408abd9bf2aa0362b, type: 3}
+  _answers:
+  - {fileID: 11400000, guid: beaa108fc2587604c90f521b6fb62cb5, type: 2}
+  - {fileID: 11400000, guid: c52053118fcef8c469026f4542a017cf, type: 2}
+  - {fileID: 11400000, guid: eda4d14aa3f0d7f45a8bba45984594aa, type: 2}
+  - {fileID: 11400000, guid: 6101559ecf84aa648b1ab955a5e30fc4, type: 2}
+  _correct: {fileID: 11400000, guid: beaa108fc2587604c90f521b6fb62cb5, type: 2}

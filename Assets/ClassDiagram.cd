@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CameraManager" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="0.5" Width="2" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="6.636" />
+        <Point X="2.177" Y="6.636" Type="JumpStart" />
+        <Point X="2.343" Y="6.636" Type="JumpEnd" />
+        <Point X="4.917" Y="6.636" Type="JumpStart" />
+        <Point X="5.083" Y="6.636" Type="JumpEnd" />
+        <Point X="6.007" Y="6.636" Type="JumpStart" />
+        <Point X="6.173" Y="6.636" Type="JumpEnd" />
+        <Point X="6.917" Y="6.636" Type="JumpStart" />
+        <Point X="7.083" Y="6.636" Type="JumpEnd" />
+        <Point X="10.167" Y="6.636" Type="JumpStart" />
+        <Point X="10.333" Y="6.636" Type="JumpEnd" />
+        <Point X="11.917" Y="6.636" Type="JumpStart" />
+        <Point X="12.083" Y="6.636" Type="JumpEnd" />
+        <Point X="14.417" Y="6.636" Type="JumpStart" />
+        <Point X="14.583" Y="6.636" Type="JumpEnd" />
+        <Point X="17.75" Y="6.636" />
+        <Point X="17.75" Y="5.398" />
+        <Point X="17.852" Y="5.398" />
+        <Point X="17.852" Y="3.877" />
+        <Point X="17.75" Y="3.877" />
+        <Point X="17.75" Y="3.723" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAACEggAAABAQAABAAAAAAAAAAAAAAAAAAAAAkA=</HashCode>
+      <FileName>Assets\Scripts\CameraManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="InfoUi">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="7.134" />
+        <Point X="1.207" Y="7.134" />
+        <Point X="1.207" Y="6.898" />
+        <Point X="14.5" Y="6.898" />
+        <Point X="14.5" Y="3.877" />
+        <Point X="13.75" Y="3.877" />
+        <Point X="13.75" Y="3.146" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AQAAgAEAAAABAAAAAAAAAAAAAAAARAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InfoUi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfoUIManager" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="6.898" />
+        <Point X="6.09" Y="6.898" />
+        <Point X="6.09" Y="4.251" />
+        <Point X="7" Y="4.251" />
+        <Point X="7" Y="4.011" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAABEAAAAAAAAAAAAAAAAAAAAAACAAAAQAA=</HashCode>
+      <FileName>Assets\Scripts\InfoUIManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SceneManager" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="7.134" />
+        <Point X="1.24" Y="7.134" />
+        <Point X="1.24" Y="6.898" />
+        <Point X="7" Y="6.898" />
+        <Point X="7" Y="5.733" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.154" />
+  </Class>
+  <Class Name="StreetListController" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="7.134" />
+        <Point X="1.209" Y="7.134" />
+        <Point X="1.209" Y="6.898" />
+        <Point X="10.25" Y="6.898" />
+        <Point X="10.25" Y="5.261" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAJKAAAAQAgIAAAAQAAABAAAAgAgAiEAAgAAI=</HashCode>
+      <FileName>Assets\Scripts\StreetListController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StreetListElement">
+    <Position X="0.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAACEAAAAAAQAAACAIAAAEAIAAACAEAAgAI=</HashCode>
+      <FileName>Assets\Scripts\StreetListElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TargetManager" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\TargetManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Tile">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Tile.type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\Tile.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="7.134" />
+        <Point X="1.257" Y="7.134" />
+        <Point X="1.257" Y="6.898" />
+        <Point X="5" Y="6.898" />
+        <Point X="5" Y="6.049" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAQAACAAAAAAgAAAAAAAARAAAAAAgFA=</HashCode>
+      <FileName>Assets\Scripts\Tile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileChecker" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="6.863" />
+        <Point X="4.346" Y="6.863" />
+        <Point X="4.346" Y="10.088" />
+        <Point X="5.25" Y="10.088" />
+        <Point X="5.25" Y="9.934" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TileChecker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TileManager" BaseTypeListCollapsed="true">
+    <Position X="14.75" Y="4" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="6.636" />
+        <Point X="2.177" Y="6.636" Type="JumpStart" />
+        <Point X="2.343" Y="6.636" Type="JumpEnd" />
+        <Point X="4.917" Y="6.636" Type="JumpStart" />
+        <Point X="5.083" Y="6.636" Type="JumpEnd" />
+        <Point X="6.007" Y="6.636" Type="JumpStart" />
+        <Point X="6.173" Y="6.636" Type="JumpEnd" />
+        <Point X="6.917" Y="6.636" Type="JumpStart" />
+        <Point X="7.083" Y="6.636" Type="JumpEnd" />
+        <Point X="10.167" Y="6.636" Type="JumpStart" />
+        <Point X="10.333" Y="6.636" Type="JumpEnd" />
+        <Point X="11.917" Y="6.636" Type="JumpStart" />
+        <Point X="12.083" Y="6.636" Type="JumpEnd" />
+        <Point X="14.417" Y="6.636" Type="JumpStart" />
+        <Point X="14.583" Y="6.636" Type="JumpEnd" />
+        <Point X="15.5" Y="6.636" />
+        <Point X="15.5" Y="6.261" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAgBAAAAAAAAAAAAAAAAAACAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\TileManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnityEngine.MonoBehaviour">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="AnimationManager">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAQAAAAAAAQAAAggIEAAAAACAACAAAACAAAAABAEA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\AnimationManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AnswerButton">
+    <Position X="9.25" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="6.898" />
+        <Point X="4.346" Y="6.898" />
+        <Point X="4.346" Y="10.088" />
+        <Point X="5.75" Y="10.088" />
+        <Point X="5.75" Y="12.704" />
+        <Point X="10" Y="12.704" />
+        <Point X="10" Y="11.598" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAQAAAIAABAAIAAAiAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\AnswerButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuestionUiManager">
+    <Position X="11.25" Y="4" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" FixedFromPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="6.863" />
+        <Point X="12" Y="6.863" />
+        <Point X="12" Y="6.069" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAABAAAIAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\QuestionUiManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ResultUIManager">
+    <Position X="2.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAIAAAAAAAAAAAQEAAAAAgCAgAAAAABAAAQ=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\ResultUIManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TestManager">
+    <Position X="15" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABABACEAAAiAAAgAAAgAIDBAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\TestManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProgressBarController">
+    <Position X="6" Y="10" Width="1.5" />
+    <InheritanceLine Type="UnityEngine.MonoBehaviour" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.25" Y="7.25" />
+        <Point X="1.25" Y="6.898" />
+        <Point X="7.75" Y="6.898" />
+        <Point X="7.75" Y="9.625" />
+        <Point X="6.812" Y="9.625" />
+        <Point X="6.812" Y="10" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAACACAAAAAAAAAAAAAQAEAAIAAAEAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\ProgressBarController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="IQuestionUiManager">
+    <Position X="12.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\QuestionUiManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITestManager">
+    <Position X="16.5" Y="7" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\TestManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IAnimationManager">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\AnimationManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IResultUIManager">
+    <Position X="3.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\ResultUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITileChecker">
+    <Position X="6" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TileChecker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITileManager">
+    <Position X="16.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scripts\TileManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ICameraManager">
+    <Position X="15.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\CameraManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IStreetListController">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\StreetListController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ISceneManager">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SceneManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ITargetManager">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TargetManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IInfoUIManager">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\InfoUIManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IProgressBarController">
+    <Position X="7.5" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAACAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TestScripts\TestUnits\ProgressBarController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
